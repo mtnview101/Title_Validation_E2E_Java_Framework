@@ -36,7 +36,7 @@ public class SeleniumTest {
        @Test
        public void test_Title_Validation()  throws ComparisonFailure {
        boolean assert_result = false;
-       assertEquals("message for the AssertionError", expected_Result, actual_Result);   
+       assertEquals("ТЕСТ ПРОВАЛЕН!", expected_Result, actual_Result);   
        System.out.println("Test Case: " + test_id + " Expected Result: " + expected_Result + " Actual Result: " + actual_Result);
               
              
